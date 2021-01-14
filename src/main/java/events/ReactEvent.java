@@ -9,7 +9,7 @@ public class ReactEvent extends ListenerAdapter {
         String reaction = event.getReaction().getReactionEmote().getAsCodepoints();
         if (reaction.equalsIgnoreCase("U+274c")) {
             String messageId = event.getMessageId();
-            event.getChannel().deleteMessageById(messageId).queue();
+            event.getChannel().deleteMessageById(messageId).complete();
         }
     }
 

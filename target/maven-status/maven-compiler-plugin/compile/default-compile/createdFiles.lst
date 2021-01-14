@@ -3,6 +3,8 @@ events\TKEvent.class
 events\Jury.class
 events\TKEvent$1.class
 audio\GuildMusicManager.class
+events\About.class
+utils\StrikeDatabase.class
 tkcounter\TkCounter.class
 events\Music.class
 Bot.class

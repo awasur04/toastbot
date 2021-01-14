@@ -67,14 +67,33 @@ public class Music extends ListenerAdapter {
                     } else if (genre.equalsIgnoreCase("trap")) {
                         loadAndPlay(event.getChannel(), "https://www.youtube.com/watch?v=BwuwYELL-tg", voiceChannel, genre);
                     } else if (genre.equalsIgnoreCase("trap2")) {
-                        loadAndPlay(event.getChannel(), "https://www.youtube.com/watch?v=Oxj2EAr256Y", voiceChannel, "trap 2");
+                        loadAndPlay(event.getChannel(), "https://www.youtube.com/watch?v=v3jpVUOi9XU", voiceChannel, "trap 2");
                     } else if (genre.equalsIgnoreCase("rap2")) {
                         loadAndPlay(event.getChannel(), "https://www.youtube.com/watch?v=05689ErDUdM", voiceChannel, "rap 2");
+                    } else if (genre.equalsIgnoreCase("retro")) {
+                        loadAndPlay(event.getChannel(), "https://www.youtube.com/watch?v=Yv4dVgTc1-g", voiceChannel, "retro");
+                    } else {
+                        event.getChannel().sendMessage("Error: genre not found!").queue();
                     }
                 } catch (Exception e) {
-                    event.getChannel().sendMessage("Please select a genre from the list below:\n1.Chill\n2.Rap\n3.Rap2\n4.Trap\n5.Trap2\nMore coming soon!").queue();
+                    event.getChannel().sendMessage("Please select a genre from the list below:\nChill\nRap\nRap2\nTrap\nTrap2\nRetro\nStop (to stop playing)\nUsage: !radio <genre>") .queue();
                     System.out.println("Error: " + e.getMessage());
                 }
+            }else if (event.getMessage().getContentRaw().startsWith("!play")) {
+                String[] eventMessage = event.getMessage().getContentRaw().split(" ");
+                try {
+                    String toPlay = eventMessage[1];
+                    System.out.println(toPlay);
+                    VoiceChannel voiceChannel = event.getMember().getVoiceState().getChannel();
+                    if (!toPlay.isEmpty()) {
+                        loadAndPlay(event.getChannel(), toPlay, voiceChannel, "custom");
+                    }
+                } catch (Exception e) {
+                    event.getChannel().sendMessage("ERROR: link not found").queue();
+                    System.out.println("Error: " + e.getMessage());
+                }
+            }else if (event.getMessage().getContentRaw().startsWith("!stop")) {
+                stop(event.getGuild());
             }
         }
     }

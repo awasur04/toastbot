@@ -75,6 +75,8 @@ public class About extends ListenerAdapter {
                     } else if (currentRole.getId().equals("364282391969267713")) {
                         eb.appendDescription("Role: VIP\n");
                         break;
+                    } else if (currentRole.getId().equals("303374177241530368")) {
+                        eb.appendDescription("Role: Admin\n");
                     } else {
                         eb.appendDescription("Role: " + currentRole.getName() + "\n");
                         break;

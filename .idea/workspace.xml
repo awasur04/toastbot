@@ -8,22 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bab2c928-a0c5-4675-b8a6-99524b4745ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/events/HelloEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/HelloEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/events/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/events/ReactEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/ReactEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/events/Strike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/Strike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Bot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/events/HelloEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/HelloEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/events/Music$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/Music$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/events/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/Music.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/events/ReactEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/ReactEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/events/Strike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/events/Strike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/toastbot-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/toastbot.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/toastbot.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/events/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/About.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +138,7 @@
       <workItem from="1610655002773" duration="3586000" />
       <workItem from="1610661236578" duration="3215000" />
       <workItem from="1610664551244" duration="46000" />
+      <workItem from="1610670780813" duration="96000" />
     </task>
     <servers />
   </component>
@@ -184,11 +170,11 @@
     </state>
     <state width="1397" height="221" key="GridCell.Tab.0.right/0.0.1920.1080/-1440.0.1440.860@-1440.0.1440.860" timestamp="1608677392833" />
     <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1080/-1440.0.1440.860@0.0.1920.1080" timestamp="1610664456008" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1610664550982">
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1610670780958">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="-948" y="290" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1440.0.1440.860@-1440.0.1440.860" timestamp="1608688350216" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1440.0.1440.860@0.0.1920.1080" timestamp="1610664550982" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1440.0.1440.860@0.0.1920.1080" timestamp="1610670780958" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1610656701094">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

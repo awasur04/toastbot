@@ -7,7 +7,7 @@ import net.dv8tion.jda.api.entities.Activity;
 public class Bot {
 
     public static void main(String[] args) throws Exception{
-        JDA jda = JDABuilder.createDefault("NzA1NTc1MTE2Njk5ODYxMTAy.Xqt0NA.UeAloDEXjFlwLDQEJ_fVXnqh6fQ").setStatus(OnlineStatus.ONLINE).setActivity(Activity.playing("!help")).build();
+        JDA jda = JDABuilder.createDefault("Insert Token Here").setStatus(OnlineStatus.ONLINE).setActivity(Activity.playing("!help")).build();
 
         Strike strikes = new Strike();
 

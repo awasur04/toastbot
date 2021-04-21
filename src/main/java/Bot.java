@@ -18,5 +18,6 @@ public class Bot {
         jda.addEventListener(new Music());
         jda.addEventListener(new TKEvent());
         jda.addEventListener(new About(strikes));
+        jda.addEventListener(new SuperBowl());
     }
 }

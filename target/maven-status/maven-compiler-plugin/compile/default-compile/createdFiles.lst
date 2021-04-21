@@ -9,9 +9,11 @@ tkcounter\TkCounter.class
 events\Music.class
 Bot.class
 utils\Util.class
+events\SuperBowl.class
 events\HelloEvent.class
 utils\Account.class
 audio\AudioPlayerSendHandler.class
 events\Strike.class
 audio\TrackScheduler.class
 events\ReactEvent.class
+utils\Game.class
